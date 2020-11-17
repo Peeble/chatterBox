@@ -27,7 +27,7 @@ export class ChatForm {
             this.$input.val('');
         });
 
-        this.$form.find('button').on('click', () => this.$form.submit());
+        this.$form.find('button').on('click', () => this.$form.trigger('submit'));
     }
 }
 

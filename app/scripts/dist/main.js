@@ -70937,7 +70937,7 @@ var ChatForm = /*#__PURE__*/function () {
         _this.$input.val('');
       });
       this.$form.find('button').on('click', function () {
-        return _this.$form.submit();
+        return _this.$form.trigger('submit');
       });
     }
   }]);
@@ -71160,7 +71160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59891" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54829" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
