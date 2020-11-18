@@ -6,7 +6,7 @@ const FORM_SELECTOR = '[data-chat="chat-form"]';
 const INPUT_SELECTOR = '[data-chat="message-input"]';
 const LIST_SELECTOR = '[data-chat="message-list"]';
 
-let userStore = new UserStore('x-shattrbox/u');
+let userStore = new UserStore('x-chattrbox/u');
 let username = userStore.get();
 if (!username) {
   username = promptForUsername();
